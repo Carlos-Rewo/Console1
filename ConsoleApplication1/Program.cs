@@ -34,7 +34,7 @@ public class Program
             // Start listening for connections.
             while (true)
             {
-                Console.WriteLine("Waiting for a connection...");
+                Console.WriteLine("Waiting for a connection....");
                 // Program is suspended while waiting for an incoming connection.
                 Socket handler = listener.Accept(); //el cliente que se conecta al servidor
                 data = null;
